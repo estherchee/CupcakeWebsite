@@ -1,0 +1,15 @@
+.header {
+  padding: 16px;
+  text-align: center;
+  background-color: #f8edeb;
+}
+.header a {
+  margin: 8px 8px 8px 8px;
+  padding: 8px;
+  font-size: large;
+  color: black;
+}
+
+.header a:hover {
+  background-color: #fcd5ce;
+}

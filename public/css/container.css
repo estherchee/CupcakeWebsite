@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.container .item {
+  align-items: center;
+  padding: 20px;
+}
+
+.container .item h2 {
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+.div-welcometext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-welcometext h1 {
+  font-size: x-large;
+  text-align: center;
+  width: 100%;
+}
+
+
