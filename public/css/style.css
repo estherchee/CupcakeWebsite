@@ -1,11 +1,11 @@
 @import './header.css';
 @import './image-logo.css';
-@import "./div-welcometext.css";
-@import "./image-cupcake-homepage.css";
-@import "./introduction.css";
-@import "./content-page.css";
-@import "./container.css";
-@import "./item-image.css";
+@import './div-welcometext.css';
+@import './image-cupcake-homepage.css';
+@import './introduction.css';
+@import './content-page.css';
+@import './container.css';
+@import './item-image.css';
 
 body,
 h1,
