@@ -1,202 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/product-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Karma"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Product</title>
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+  <body>
+    <!-- Navigation Bar enables a user to access 4 web pages -->
+    <header class="header">
+      <a href="./home.html" class="nav-button-home">Home</a>
+      <a href="./about.html" class="nav-button-About">About</a>
+      <a href="./product.html" class="nav-button-Product">Product</a>
+      <a href="./contact.html" class="nav-button-contact">Contact</a>
+    </header>
 
-<body>
-  <!-- Navigation Bar enables a user to access 4 web pages -->
-  <header class="header">
-    <a href="./home.html" class="nav-button-home">Home</a>
-    <a href="./about.html" class="nav-button-About">About</a>
-    <a href="./product.html" class="nav-button-Product">Product</a>
-    <a href="./contact.html" class="nav-button-contact">Contact</a>
-  </header>
+    <!-- Product page  -->
+    <div class="container">
+      <img src="./images/logo.png" alt="Logo" class="image-logo" />
 
-  <!-- Product page  -->
-  <div class="div-welcometext">
-    <img src="./images/logo.png" alt="Logo" class="image-logo" />
+      <!-- Cupcakes-->
+      <div class="products">
+        <h1 class="logo-text">
+          <b>Products</b>
+        </h1>
 
-    <!-- Cupcakes-->
-    <div class="introduction">
-      <h1 class="logo-text">
-        <b>Products</b>
-      </h1>
-      <!-- First Content page -->
-      <div class="content-page">
-        <p><b>Gourmet Cupcakes</b></p>
+        <!-- First Content page -->
+        <div class="product-group">
+          <p class="product-group-name"><b>Gourmet Cupcakes</b></p>
 
+          <div class="products-container">
+            <div class="product">
+              <img
+                src="./images/cupcake-chocolate.jpeg"
+                alt="Chocolate"
+                class="product-image"
+              />
+              <h2>Chocolate Cupcake - 35kr</h2>
+            </div>
 
-        <!-- First Photo Grid-->
-        <div class="container">
+            <div class="product">
+              <img
+                src="./images/cupcake-rose.jpeg"
+                alt="Rose"
+                class="product-image"
+              />
+              <h2>Rose Cupcake - 35kr</h2>
+            </div>
 
-          <!-- First Item -->
-          <div class="item">
-            <img src="./images/cupcake-chocolate.jpeg" alt="Chocolate" class="item-image">
-            <h2>Chocolate Cupcake - 35kr</h2>
+            <div class="product">
+              <img
+                src="./images/cupcake-oreo.jpeg"
+                alt="Oreo"
+                class="product-image"
+              />
+              <h2>Oreo Cupcake - 35kr</h2>
+            </div>
+
+            <div class="product">
+              <img
+                src="./images/cupcake-rainbow.jpeg"
+                alt="Rainbow"
+                class="product-image"
+              />
+              <h2>Rainbow Cupcake - 35kr</h2>
+            </div>
+
+            <div class="product">
+              <img
+                src="./images/cupcake-redvelvet.jpeg"
+                alt="RedVelvet"
+                class="product-image"
+              />
+              <h2>Red Velvet Cupcake - 35kr</h2>
+            </div>
+
+            <div class="product">
+              <img
+                src="./images/cupcake-cherry.jpeg"
+                alt="Cherry"
+                class="product-image"
+              />
+              <h2>Cherry Cupcake - 35kr</h2>
+            </div>
+
+            <div class="product">
+              <img
+                src="./images/cupcake-lemon.jpeg"
+                alt="Lemon"
+                class="product-image"
+              />
+              <h2>Lemon Cupcake - 35kr</h2>
+            </div>
+
+            <div class="product">
+              <img
+                src="./images/cupcake-peppermint.jpeg"
+                alt="Peppermint"
+                class="product-image"
+              />
+              <h2>Peppermint Cupcake - 35kr</h2>
+            </div>
+
+            <div class="product">
+              <img
+                src="./images/cupcake-raspberry.jpeg"
+                alt="Raspberry"
+                class="product-image"
+              />
+              <h2>Raspberry Cupcake - 35kr</h2>
+            </div>
           </div>
-
-          <!-- Second Item -->
-          <div class="item">
-            <img src="./images/cupcake-rose.jpeg" alt="Rose" class="item-image">
-            <h2>Rose Cupcake - 35kr</h2>
-          </div>
-
-          <!-- Third Item -->
-          <div class="item">
-            <img src="./images/cupcake-oreo.jpeg" alt="Oreo" class="item-image">
-            <h2>Oreo Cupcake - 35kr</h2>
-          </div>
-
-
         </div>
 
-        <!-- Second Photo Grid-->
-        <div class="container">
+        <!-- Second Content page -->
+        <div class="product-group">
+          <p class="product-group-name"><b>Wedding Cakes</b></p>
 
-          <!-- First Item -->
-          <div class="item">
-            <img src="./images/cupcake-rainbow.jpeg" alt="Rainbow" class="item-image">
-            <h2>Rainbow Cupcake - 35kr</h2>
+          <div class="products-container">
+            <div class="product">
+              <img
+                src="./images/cake-blueberry.jpeg"
+                alt="Blueberry"
+                class="product-image"
+              />
+              <h2>Blueberry Cake - 600kr</h2>
+            </div>
+
+            <div class="product">
+              <img
+                src="./images/cake-conifer-cone.jpeg"
+                alt="Conifer Cone"
+                class="product-image"
+              />
+              <h2>Conifer Cone Cake - 680kr</h2>
+            </div>
+
+            <div class="product">
+              <img
+                src="./images/cake-daisy.jpeg"
+                alt="Daisy"
+                class="product-image"
+              />
+              <h2>Daisy Cake - 600kr</h2>
+            </div>
+
+            <div class="product">
+              <img
+                src="./images/cake-forest-theme.jpeg"
+                alt="Forest Theme"
+                class="product-image"
+              />
+              <h2>Forest Theme Cake - 800kr</h2>
+            </div>
+
+            <div class="product">
+              <img
+                src="./images/cake-matcha.jpeg"
+                alt="Matcha"
+                class="product-image"
+              />
+              <h2>Zen Matcha Cake - 680kr</h2>
+            </div>
+
+            <div class="product">
+              <img
+                src="./images/cake-purple.jpeg"
+                alt="Purple Floral"
+                class="product-image"
+              />
+              <h2>Purple Floral Cake - 600kr</h2>
+            </div>
+
+            <div class="product">
+              <img
+                src="./images/cake-red-and-white.jpeg"
+                alt="Simple Floral"
+                class="product-image"
+              />
+              <h2>Simple Floral Cake - 600kr</h2>
+            </div>
+
+            <div class="product">
+              <img
+                src="./images/cake-red-roses.jpeg"
+                alt="Roses"
+                class="product-image"
+              />
+              <h2>Roses Cake - 680kr</h2>
+            </div>
+
+            <div class="product">
+              <img
+                src="./images/cake-simple-forest.jpeg"
+                alt="Simple Forest"
+                class="product-image"
+              />
+              <h2>Simple Forest Cake - 800kr</h2>
+            </div>
           </div>
-
-          <!-- Second Item -->
-          <div class="item">
-            <img src="./images/cupcake-redvelvet.jpeg" alt="RedVelvet" class="item-image">
-            <h2>Red Velvet Cupcake - 35kr</h2>
-          </div>
-
-          <!-- Third Item -->
-          <div class="item">
-            <img src="./images/cupcake-cherry.jpeg" alt="Cherry" class="item-image">
-            <h2>Cherry Cupcake - 35kr</h2>
-          </div>
-
         </div>
-
-        <!-- Third Photo Grid-->
-        <div class="container">
-
-          <!-- First Item -->
-          <div class="item">
-            <img src="./images/cupcake-lemon.jpeg" alt="Lemon" class="item-image">
-            <h2>Lemon Cupcake - 35kr</h2>
-          </div>
-
-          <!-- Second Item -->
-          <div class="item">
-            <img src="./images/cupcake-peppermint.jpeg" alt="Peppermint" class="item-image">
-            <h2>Peppermint Cupcake - 35kr</h2>
-          </div>
-
-          <!-- Third Item -->
-          <div class="item">
-            <img src="./images/cupcake-raspberry.jpeg" alt="Raspberry" class="item-image">
-            <h2>Raspberry Cupcake - 35kr</h2>
-          </div>
-
-        </div>
-
       </div>
-
-      <!-- Second Content page -->
-      <div class="content-page">
-        <p><b>Wedding Cakes</b></p>
-
-
-        <!-- First Photo Grid-->
-        <div class="container">
-
-          <!-- First Item -->
-          <div class="item">
-            <img src="./images/cake-blueberry.jpeg" alt="Blueberry" class="item-image">
-            <h2>Blueberry Cake - 600kr</h2>
-          </div>
-
-          <!-- Second Item -->
-          <div class="item">
-            <img src="./images/cake-conifer-cone.jpeg" alt="Conifer Cone" class="item-image">
-            <h2>Conifer Cone Cake - 680kr</h2>
-          </div>
-
-          <!-- Third Item -->
-          <div class="item">
-            <img src="./images/cake-daisy.jpeg" alt="Daisy" class="item-image">
-            <h2>Daisy Cake - 600kr</h2>
-          </div>
-
-
-        </div>
-
-        <!-- Second Photo Grid-->
-        <div class="container">
-
-          <!-- First Item -->
-          <div class="item">
-            <img src="./images/cake-forest-theme.jpeg" alt="Forest Theme" class="item-image">
-            <h2>Forest Theme Cake - 800kr</h2>
-          </div>
-
-          <!-- Second Item -->
-          <div class="item">
-            <img src="./images/cake-matcha.jpeg" alt="Matcha" class="item-image">
-            <h2>Zen Matcha Cake - 680kr</h2>
-          </div>
-
-          <!-- Third Item -->
-          <div class="item">
-            <img src="./images/cake-purple.jpeg" alt="Purple Floral" class="item-image">
-            <h2>Purple Floral Cake - 600kr</h2>
-          </div>
-
-        </div>
-
-        <!-- Third Photo Grid-->
-        <div class="container">
-
-          <!-- First Item -->
-          <div class="item">
-            <img src="./images/cake-red-and-white.jpeg" alt="Simple Floral" class="item-image">
-            <h2>Simple Floral Cake - 600kr</h2>
-          </div>
-
-          <!-- Second Item -->
-          <div class="item">
-            <img src="./images/cake-red-roses.jpeg" alt="Roses" class="item-image">
-            <h2>Roses Cake - 680kr</h2>
-          </div>
-
-          <!-- Third Item -->
-          <div class="item">
-            <img src="./images/cake-simple-forest.jpeg" alt="Simple Forest" class="item-image">
-            <h2>Simple Forest Cake - 800kr</h2>
-          </div>
-
-        </div>
-
-      </div>
-
-
     </div>
 
-  </div>
-  </div>
-  <hr />
-  <!-- footer -->
-  <footer class="header">
-    <a class="fa fa-instagram" href="https://www.instagram.com/munamii.cakery/"> Instagram</a>
-    <a class="fa fa-facebook" href="https://www.facebook.com/munamiicupcakes/"> Facebook</a>
-    <a class="fa fa-envelope-o" href="https://www.facebook.com/munamiicupcakes/"> Email:
-      softwaredevelopmentacademy@gmail.com</a>
+    <hr />
 
-  </footer>
-</body>
-
+    <!-- footer -->
+    <footer class="footer">
+      <a
+        class="fa fa-instagram"
+        href="https://www.instagram.com/munamii.cakery/"
+      >
+        Instagram</a
+      >
+      <a
+        class="fa fa-facebook"
+        href="https://www.facebook.com/munamiicupcakes/"
+      >
+        Facebook</a
+      >
+      <a
+        class="fa fa-envelope-o"
+        href="mailto:softwaredevelopmentacademy@gmail.com"
+      >
+        Email</a
+      >
+    </footer>
+  </body>
 </html>
