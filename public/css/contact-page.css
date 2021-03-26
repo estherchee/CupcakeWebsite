@@ -1,0 +1,5 @@
+@import './content-container.css';
+
+.content-section.information p {
+  text-align: start;
+}
