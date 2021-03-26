@@ -3,3 +3,17 @@
 .content-section.information p {
   text-align: start;
 }
+
+.content-section.information {
+  margin-bottom: 8px;
+}
+
+.contact-form {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+}
+
+.contact-form .icon {
+  margin-right: 8px;
+}
